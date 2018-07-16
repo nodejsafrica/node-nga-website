@@ -1,0 +1,126 @@
+body {
+  color: rgba(102, 102, 102, 1);
+}
+
+.bg-dark {
+  background: rgba(0, 0, 0, .85) !important;
+}
+
+h1, h4 {
+  color: black;
+}
+
+/*
+      Banner And Bottom Nav Section
+*/
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a.banner-btn, a.banner-btn:hover {
+  background-color: rgba(114, 186, 86, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-sm {
+  color: white !important;
+}
+
+.banner-nav p {
+  font-family: proximaNovaBold;
+  font-size: 1.3em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.banner-nav h1, .banner-nav h4 {
+  color: rgba(255, 255, 255, 1);
+}
+/*  Button fonts */
+#txt-small {
+  font-size: 14px;
+}
+#txt-big {
+  font-size: 22px;
+  display: block;
+  line-height: .8;
+}
+
+/*   Bottom Nav */
+.bottom-nav {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.nav-link {
+  font-family: 'proximaNovaSemiBold', sans-serif;
+}
+
+/*
+    About Conference Section
+*/
+
+p {
+  font-size: 1em;
+  line-height: 28px;
+}
+
+/*
+  Sponsors Section
+*/
+#sponsors{
+  background-color: rgba(61, 153, 112, 0.1);
+}
+
+/*
+    Footer
+*/
+footer {
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+#footer-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 0.8em;
+  line-height: 24px;
+}
+#footer-1st-text {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+/*
+    Fonts
+*/
+@font-face {
+  font-family: 'proximaNovaBold';
+  src: url(../fonts/proxima-nova-bold.ttf);
+}
+@font-face {
+  font-family: 'proximaNovaSemiBold';
+  src: url(../fonts/proximanova-semibold-webfont.ttf);
+}
+@font-face {
+  font-family: 'proximaNovaRegular';
+  src: url(../fonts/proxima-nova-regular.ttf);
+}
+
+/*
+      Customized Css
+*/
+a, a:hover, a:checked {
+  color: rgba(61, 153, 112, 1);
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  font-family: 'proximaNovaSemiBold', sans-serif;
+}
+
+/* Colors */
+.node-white {
+  color: rgba(255, 255, 255, 1);
+}

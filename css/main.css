@@ -1,0 +1,179 @@
+/*
+    Fonts
+*/
+@font-face {
+  font-family: 'proximaNovaBold';
+  src: url(../fonts/proximaBold.otf);
+}
+@font-face {
+  font-family: 'proximaNovaSemiBold';
+  src: url(../fonts/proximaSemiBold.otf);
+}
+@font-face {
+  font-family: 'proximaNovaRegular';
+  src: url(../fonts/proximaRegular.otf);
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(../webfonts/AvenirLTStd-Book/AvenirLTStd-Book.otf);
+}
+body {
+  font-size: 16px;
+  font-family: 'proximaNovaRegular', sans-serif;
+}
+h1 {
+  font-family: 'proximaNovaBold', sans-serif;
+}
+
+h4 {
+  font-family: 'proximaNovaSemiBold', sans-serif;
+}
+
+.navbar-brand > img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar {
+  padding: 2.5rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+/*
+      Banner And Bottom Nav Section
+ */
+#banner {
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+
+a.banner-btn {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.banner-nav p {
+  padding-bottom: 48px;
+}
+
+.banner-nav img {
+  height: 123px;
+  width: auto;
+}
+
+.btn-lg {
+  padding: 15px 30px 20px;
+}
+
+.btn-sm {
+  padding: 13px 22.5px;
+}
+
+.sm-margin-bottom {
+  margin-bottom: 18px;
+}
+
+.md-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.bg-margin-bottom {
+  margin-bottom: 48px;
+}
+
+/*   Bottom Nav */
+.bottom-nav {
+  padding: 40px 0;
+}
+
+/*
+    About Conference
+*/
+
+#about-conf {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  width: 51px;
+  float: left;
+  border-bottom: 3px rgba(114, 186, 86, 1) solid;
+  margin-right: 35px;
+  margin-top: 24px;
+}
+#heading {
+  padding-bottom: 22px;
+}
+
+/*
+    Sponsors Section
+*/
+
+
+/*
+    Footer
+*/
+#footer-text {
+  padding-top: 95px;
+}
+
+footer a, footer a:hover, footer a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* Mobile Devices */
+
+@media(max-width: 491px) {
+  .banner-nav img {
+    height: 90px;
+    width: auto;
+  }
+  #banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 0.975em;
+  }
+  .sm-margin-bottom {
+    margin-bottom: 22px;
+  }
+  .sm-line-height {
+    line-height: 1.5;
+  }
+  .btn-lg {
+    padding: 10px 30px 15px;
+  }
+  #about-conf {
+    width: 70%;
+    height: auto;
+  }
+  .sm-justify-center {
+    text-align: center;
+  }
+  .sm-text-left {
+    text-align: left;
+  }
+  hr {
+    width: 30px;
+    margin-top: 14px;
+  }
+}

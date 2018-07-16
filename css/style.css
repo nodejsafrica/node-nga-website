@@ -82,6 +82,12 @@ p {
   background-color: rgba(61, 153, 112, 0.1);
 }
 
+.sponsor-img {
+  max-width: 30vw;
+  /* height: 80px;
+  background-image: url('../images/foundation.png'); */
+}
+
 /*
   Speaker guide Section
 */

@@ -10,6 +10,15 @@ h1, h4 {
   color: black;
 }
 
+.bg-green {
+  background-color: rgba(61, 153, 112, 0.1);
+}
+
+li {
+  line-height: 2;
+  margin-top: 1.5vh;
+}
+
 /*
       Banner And Bottom Nav Section
 */
@@ -72,6 +81,7 @@ p {
 #sponsors{
   background-color: rgba(61, 153, 112, 0.1);
 }
+
 
 /*
     Footer

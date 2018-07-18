@@ -82,6 +82,10 @@ p {
   background-color: rgba(61, 153, 112, 0.1);
 }
 
+.sponsor-img {
+  max-width: 30vw;
+}
+
 /*
   Speaker guide Section
 */

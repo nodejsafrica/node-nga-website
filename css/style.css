@@ -78,12 +78,16 @@ p {
 /*
   Sponsors Section
 */
-#sponsors{
+#current-sponsors{
   background-color: rgba(61, 153, 112, 0.1);
+}
+#current-sponsors .col-md-3 {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
 }
 
 .sponsor-img {
-  max-width: 30vw;
+  max-width: 25vw;
 }
 
 /*

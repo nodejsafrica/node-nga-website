@@ -19,16 +19,33 @@ li {
   margin-top: 1.5vh;
 }
 
+.find-twitter {
+  border-radius: 6px;
+  background-color: #1DA1F2 !important;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke !important;
+}
+
+.find-gh {
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 /*
       Banner And Bottom Nav Section
 */
-#banner {
+/* #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 
 a.banner-btn, a.banner-btn:hover {
   background-color: rgba(114, 186, 86, 1);
